@@ -1,0 +1,24 @@
+#game div {
+  display: inline-flex;
+  align-items: center;
+  border: 1.5px solid rgb(241, 229, 229);
+  width: 18%;
+  height: 150px;
+  margin: auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-family:fantasy;
+  color: rgb(241, 229, 229);
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  font-weight: bold;
+  font-family:fantasy;
+  color: rgb(241, 229, 229);
+  text-align: center;
+  font-size: 35px;
+}
+display: inline-block;
