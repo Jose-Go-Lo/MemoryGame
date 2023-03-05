@@ -5,16 +5,26 @@ let cardsFlipped= 0;
 let nothingClicked= false;
 
 const COLORS = [
-  "lightsalmon",
-  "lightseagreen",
-  "lightskyblue",
-  "lightslategray",
-  "limegreen",
-  "lightsalmon",
-  "lightseagreen",
-  "lightskyblue",
-  "lightslategray",
-  "limegreen",
+  "SaddleBrown",
+  "SeaGreen",
+  "Silver",
+  "SlateGray",
+  "SpringGreen",
+  "Salmon",
+  "SeaShell",
+  "SkyBlue",
+  "SteelBlue",
+  "Thistle",
+  "SaddleBrown",
+  "SeaGreen",
+  "Silver",
+  "SlateGray",
+  "SpringGreen",
+  "Salmon",
+  "SeaShell",
+  "SkyBlue",
+  "SteelBlue",
+  "Thistle",
 ];
 
 // here is a helper function to shuffle an array
