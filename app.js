@@ -5,26 +5,26 @@ let cardsFlipped = 0;
 let nothingClicked = false;
 
 const COLORS = [
-  "Crimson",
+  "Red",
   "LightPink",
-  "DarkOrange",
+  "Blue",
   "Gold",
   "DarkMagenta",
   "DarkCyan",
-  "DarkTurquoise",
+  "DarkGreen",
   "Sienna",
   "White",
-  "Silver",
-  "Crimson",
+  "Grey",
+  "Red",
   "LightPink",
-  "DarkOrange",
+  "Blue",
   "Gold",
   "DarkMagenta",
   "DarkCyan",
-  "DarkTurquoise",
+  "DarkGreen",
   "Sienna",
   "White",
-  "Silver",
+  "Grey",
 ];
 
 // here is a helper function to shuffle an array
@@ -111,7 +111,8 @@ function handleCardClick(event) {
       }, 750);
     }
   }
-  if (cardsFlipped === COLORS.length) alert("YOU WIN!");
+  if (cardsFlipped === COLORS.length)
+    alert("All Done! Refresh page to repeat.");
 }
 // when the DOM loads
 createDivsForColors(shuffledColors);
